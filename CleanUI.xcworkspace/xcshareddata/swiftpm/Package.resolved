@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "sskit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sncsuunc/SSKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ab81083bc121a931b0e266b552fb666afd6bc980"
+      }
+    }
+  ],
+  "version" : 2
+}

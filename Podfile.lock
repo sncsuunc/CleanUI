@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (5.8.1)
+  - CombineCocoa (0.4.1)
+  - Moya/Combine (15.0.0):
+    - Moya/Core
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Realm (10.45.2):
+    - Realm/Headers (= 10.45.2)
+  - Realm/Headers (10.45.2)
+  - RealmSwift (10.45.2):
+    - Realm (= 10.45.2)
+  - SDWebImage (5.18.8):
+    - SDWebImage/Core (= 5.18.8)
+  - SDWebImage/Core (5.18.8)
+  - SwiftGen (6.6.2)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - CombineCocoa
+  - Moya/Combine
+  - RealmSwift
+  - SDWebImage
+  - SwiftGen
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CombineCocoa
+    - Moya
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - SwiftGen
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  CombineCocoa: e5210dbfb480ff251078929459ac17e750e7af1d
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Realm: bc4fc31783a0b3e355edca05f167f6a49c544dc2
+  RealmSwift: 234003b5fdb187c4b439d478662636d62a1f9de0
+  SDWebImage: a81bbb3ba4ea5f810f4069c68727cb118467a04a
+  SwiftGen: 1366a7f71aeef49954ca5a63ba4bef6b0f24138c
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: a75753e8b276ef49e71c610fd95b253e0dcf2fa1
+
+COCOAPODS: 1.14.3

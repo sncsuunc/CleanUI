@@ -1,0 +1,27 @@
+ input_dir: CleanUI/Resources/
+ output_dir: CleanUI/Resources/Generated/
+
+## Strings
+ strings:
+   inputs:
+     - Localizable.strings
+   outputs:
+     - templateName: structured-swift5
+       output: Strings+Generated.swift
+
+## Assets
+ xcassets:
+   inputs:
+     - Assets.xcassets
+   outputs:
+     - templateName: swift5
+       params:
+         forceProvidesNamespaces: true
+       output: Assets+Generated.swift
+       
+## Fonts
+ fonts:
+   inputs: Fonts
+   outputs:
+     templateName: swift5
+     output: Fonts+Generated.swift
