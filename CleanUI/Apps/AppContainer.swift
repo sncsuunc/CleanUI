@@ -16,10 +16,9 @@ protocol AppContainerProcol {
 
 final class AppContainer: AppContainerProcol {
     
-    static let shared: AppContainerProcol = AppContainer()
+    static let shared = AppContainer()
     
     private init() {}
-    
     
     private var components: [String: Any] = [:]
     
@@ -29,6 +28,15 @@ final class AppContainer: AppContainerProcol {
     
     func resolve<Component>(type: Component.Type) -> Component? {
         return components["\(type)"] as? Component
+    }
+    
+    subscript<Component>(type: Component.Type) -> Component? {
+        get {
+            return components["\(type)"] as? Component
+        }
+        set(newValue) {
+            components["\(type)"] = newValue
+        }
     }
     
 }

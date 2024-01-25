@@ -13,6 +13,7 @@ import Moya
 final class MainViewModel {
     
     private let service = MoyaProvider<MainService>()
+    private let soundUseCase = AppContainer.shared[SoundUseCase.self]
     private var cancelableStore = [AnyCancellable]()
     
     private var sounds = PassthroughSubject<[String], Never>()
@@ -30,6 +31,10 @@ final class MainViewModel {
             AppRouter.shared.navigate(to: HomeRoute.screen(HomeViewModel()), with: .push)
         }.store(in: &cancelableStore)
         return ViewModelOutput(sounds: sounds.eraseToAnyPublisher())
+    }
+    
+    func saveSound(_ soundModel: SoundModel) {
+        
     }
     
 }

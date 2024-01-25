@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 extension AppDelegate {
     
     private func initializeDependencies() {
-        AppContainer.shared.register(type: SoundRepository.self, component: DefaultSoundRepository())
+        AppContainer.shared[SoundUseCase.self] = SoundUseCase(repository: DefaultSoundRepository())
     }
     
     private func initializeWindow() {

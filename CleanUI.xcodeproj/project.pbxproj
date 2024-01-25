@@ -73,6 +73,7 @@
 		C01EB28E2B60165F0094CB22 /* NetworkRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01EB2882B60165F0094CB22 /* NetworkRoute.swift */; };
 		C01EB2902B60165F0094CB22 /* NetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01EB28A2B60165F0094CB22 /* NetworkViewController.xib */; };
 		C01EB2912B60165F0094CB22 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01EB28B2B60165F0094CB22 /* NetworkViewController.swift */; };
+		C01EB2952B6171C70094CB22 /* SoundUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01EB2942B6171C70094CB22 /* SoundUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,6 +166,7 @@
 		C01EB2882B60165F0094CB22 /* NetworkRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRoute.swift; sourceTree = "<group>"; };
 		C01EB28A2B60165F0094CB22 /* NetworkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetworkViewController.xib; sourceTree = "<group>"; };
 		C01EB28B2B60165F0094CB22 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		C01EB2942B6171C70094CB22 /* SoundUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundUseCase.swift; sourceTree = "<group>"; };
 		C2934A02544D1C5B167A765A /* Pods-CleanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanUITests.release.xcconfig"; path = "Target Support Files/Pods-CleanUITests/Pods-CleanUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -301,6 +303,7 @@
 		C01EB1FC2B5B89040094CB22 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				C01EB2932B6171B30094CB22 /* UseCases */,
 				C01EB2042B5D40100094CB22 /* Entities */,
 				C01EB2062B5D401F0094CB22 /* Repositories */,
 				C01EB2122B5D52C00094CB22 /* EntityMapper.swift */,
@@ -461,6 +464,14 @@
 				C01EB27C2B5ED1A40094CB22 /* HomeViewController.xib */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		C01EB2932B6171B30094CB22 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				C01EB2942B6171C70094CB22 /* SoundUseCase.swift */,
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -783,6 +794,7 @@
 				C01EB2032B5C3F370094CB22 /* Combine+Extensions.swift in Sources */,
 				C01EB2712B5D78220094CB22 /* SplashViewController.swift in Sources */,
 				C01EB2912B60165F0094CB22 /* NetworkViewController.swift in Sources */,
+				C01EB2952B6171C70094CB22 /* SoundUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
