@@ -12,7 +12,6 @@
 		A2BBD380AE4B681DECF362B3 /* Pods_CleanUI_CleanUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D69E5C054905A1CD16F1121 /* Pods_CleanUI_CleanUIUITests.framework */; };
 		C01EB1C42B5841820094CB22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01EB1C32B5841820094CB22 /* AppDelegate.swift */; };
 		C01EB1CD2B5841840094CB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01EB1CC2B5841840094CB22 /* Assets.xcassets */; };
-		C01EB1D02B5841840094CB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01EB1CE2B5841840094CB22 /* LaunchScreen.storyboard */; };
 		C01EB1DB2B5841840094CB22 /* CleanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01EB1DA2B5841840094CB22 /* CleanUITests.swift */; };
 		C01EB1E52B5841840094CB22 /* CleanUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01EB1E42B5841840094CB22 /* CleanUIUITests.swift */; };
 		C01EB1E72B5841840094CB22 /* CleanUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01EB1E62B5841840094CB22 /* CleanUIUITestsLaunchTests.swift */; };
@@ -74,6 +73,7 @@
 		C01EB2902B60165F0094CB22 /* NetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01EB28A2B60165F0094CB22 /* NetworkViewController.xib */; };
 		C01EB2912B60165F0094CB22 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01EB28B2B60165F0094CB22 /* NetworkViewController.swift */; };
 		C01EB2952B6171C70094CB22 /* SoundUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01EB2942B6171C70094CB22 /* SoundUseCase.swift */; };
+		C01EB2BD2B62C47D0094CB22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01EB2BC2B62C47D0094CB22 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,7 +105,6 @@
 		C01EB1C02B5841820094CB22 /* CleanUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01EB1C32B5841820094CB22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C01EB1CC2B5841840094CB22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C01EB1CF2B5841840094CB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C01EB1D12B5841840094CB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C01EB1D62B5841840094CB22 /* CleanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01EB1DA2B5841840094CB22 /* CleanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanUITests.swift; sourceTree = "<group>"; };
@@ -167,6 +166,7 @@
 		C01EB28A2B60165F0094CB22 /* NetworkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetworkViewController.xib; sourceTree = "<group>"; };
 		C01EB28B2B60165F0094CB22 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
 		C01EB2942B6171C70094CB22 /* SoundUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundUseCase.swift; sourceTree = "<group>"; };
+		C01EB2BC2B62C47D0094CB22 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		C2934A02544D1C5B167A765A /* Pods-CleanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanUITests.release.xcconfig"; path = "Target Support Files/Pods-CleanUITests/Pods-CleanUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -283,9 +283,9 @@
 			isa = PBXGroup;
 			children = (
 				C01EB1D12B5841840094CB22 /* Info.plist */,
-				C01EB1CE2B5841840094CB22 /* LaunchScreen.storyboard */,
 				C01EB1C32B5841820094CB22 /* AppDelegate.swift */,
 				C01EB2852B5ED76E0094CB22 /* AppContainer.swift */,
+				C01EB2BC2B62C47D0094CB22 /* LaunchScreen.xib */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -303,10 +303,10 @@
 		C01EB1FC2B5B89040094CB22 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				C01EB2932B6171B30094CB22 /* UseCases */,
+				C01EB2122B5D52C00094CB22 /* EntityMapper.swift */,
 				C01EB2042B5D40100094CB22 /* Entities */,
 				C01EB2062B5D401F0094CB22 /* Repositories */,
-				C01EB2122B5D52C00094CB22 /* EntityMapper.swift */,
+				C01EB2932B6171B30094CB22 /* UseCases */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -603,9 +603,9 @@
 				C01EB23E2B5D6D340094CB22 /* Poppins-Bold.ttf in Resources */,
 				C01EB2322B5D6D340094CB22 /* Poppins-ExtraLight.ttf in Resources */,
 				C01EB2352B5D6D340094CB22 /* Poppins-BoldItalic.ttf in Resources */,
+				C01EB2BD2B62C47D0094CB22 /* LaunchScreen.xib in Resources */,
 				C01EB2362B5D6D340094CB22 /* Poppins-Light.ttf in Resources */,
 				C01EB23A2B5D6D340094CB22 /* Poppins-ExtraBold.ttf in Resources */,
-				C01EB1D02B5841840094CB22 /* LaunchScreen.storyboard in Resources */,
 				C01EB2902B60165F0094CB22 /* NetworkViewController.xib in Resources */,
 				C01EB2382B5D6D340094CB22 /* Poppins-SemiBoldItalic.ttf in Resources */,
 				C01EB2392B5D6D340094CB22 /* Poppins-ExtraBoldItalic.ttf in Resources */,
@@ -830,17 +830,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		C01EB1CE2B5841840094CB22 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C01EB1CF2B5841840094CB22 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		C01EB1E82B5841840094CB22 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -975,7 +964,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.xib;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -1010,7 +999,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.xib;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
