@@ -25,7 +25,7 @@ final class HomeViewModel {
     
     func transform(input: ViewModelInput) -> ViewModelOutput {
         input.goBack.sink {
-            AppRouter.shared.pop()
+            AppRouter.shared.exit()
         }.store(in: &cancelableStore)
         return ViewModelOutput()
     }

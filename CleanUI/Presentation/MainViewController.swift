@@ -34,14 +34,6 @@ class MainViewController: SSViewController {
         let input = MainViewModel.ViewModelInput(goToHome: buttonGoHome.tapPublisher)
         let _ = viewModel.transform(input: input)
     }
-
-    override func reloadSetting() {
-        
-    }
-
-    override func releaseSetting() {
-        
-    }
     
 }
 

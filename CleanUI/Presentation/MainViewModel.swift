@@ -28,7 +28,7 @@ final class MainViewModel {
     
     func transform(input: ViewModelInput) -> ViewModelOutput {
         input.goToHome.sink {
-            AppRouter.shared.navigate(to: HomeRoute.screen(HomeViewModel()), with: .push)
+            AppRouter.shared.navigate(to: HomeRoute.screen(HomeViewModel()), with: .present(.bottom))
         }.store(in: &cancelableStore)
         return ViewModelOutput(sounds: sounds.eraseToAnyPublisher())
     }

@@ -39,14 +39,6 @@ class SplashViewController: SSViewController {
         }.store(in: &cancelableStore)
         viewModel.loadData()
     }
-
-    override func reloadSetting() {
-        
-    }
-
-    override func releaseSetting() {
-        
-    }
     
 }
 

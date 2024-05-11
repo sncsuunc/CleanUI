@@ -1,4 +1,5 @@
 {
+  "originHash" : "43823c35bf6d9fa8a9ada96f0e70ae01abb6e14c0733d1e4885088525b312140",
   "pins" : [
     {
       "identity" : "sskit",
@@ -6,9 +7,9 @@
       "location" : "https://github.com/sncsuunc/SSKit",
       "state" : {
         "branch" : "main",
-        "revision" : "ab81083bc121a931b0e266b552fb666afd6bc980"
+        "revision" : "1bc72e3fe3127d1e8d6a9214ee914c0dd84086cb"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

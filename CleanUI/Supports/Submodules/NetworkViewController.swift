@@ -31,14 +31,6 @@ class NetworkViewController: SSViewController {
     override func initializeData() {
         
     }
-
-    override func reloadSetting() {
-        
-    }
-
-    override func releaseSetting() {
-        
-    }
     
 }
 
